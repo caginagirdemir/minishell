@@ -1,6 +1,6 @@
 # Minishell
 
-**Project Objectives** : Redirections (> < >> <<); understanding stdin, stdout, dup2; pipes; built-in funcs; execve func; fork create; waitpid func; signals and signals manipulations, meaning of $?, input tokenizate, shell env variables operations (Export, Unset)
+**Project Objectives** : Redirections (> < >> <<); understanding stdin, stdout, dup2; pipes; execve func; fork create; waitpid func; signals and signals manipulations, meaning of $?, input tokenizate, shell env variables operations (Export, Unset)
 
 <details>
   <summary>Implementation Notes</summary>
