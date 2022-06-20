@@ -16,16 +16,16 @@
  - It handle $? which should expand to the exit status of the most recently executed foreground pipeline
  - It handle ctrl-C, ctrl-D and ctrl-\ which should behave like in bash.
   - In interactive mode:
-   - ctrl-C displays a new prompt on a new line.
-   - ctrl-D exits the shell.
-   - ctrl-\ does nothing.
+     - ctrl-C displays a new prompt on a new line.
+     - ctrl-D exits the shell.
+     - ctrl-\ does nothing.
  - It implemented the following builtins:
-  - echo with option -n
-  - cd with only a relative or absolute path
-  - pwd with no options
-  - export with no options
-  - unset with no options
-  - env with no options or arguments
-  - exit with no options
+    - echo with option -n
+    - cd with only a relative or absolute path
+    - pwd with no options
+    - export with no options
+    - unset with no options
+    - env with no options or arguments
+    - exit with no options
  
 </details>
