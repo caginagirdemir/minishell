@@ -2,8 +2,9 @@
 
 **Project Objectives** : Redirections (> < >> <<); understanding stdin, stdout, dup2; pipes; execve func; fork create; waitpid func; signals and signals manipulations , meaning of $?, input tokenizate, shell env variables operations (Export, Unset)
 
-<details>
-  <summary>Implementation Notes</summary>
+<img src="./img.png" />
+
+**Implementation Notes**
  
  - It Display a prompt when waiting for a new command.
  - It Have a working history.
@@ -27,5 +28,3 @@
     - unset with no options
     - env with no options or arguments
     - exit with no options
- 
-</details>
